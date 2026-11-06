@@ -1,0 +1,50 @@
+
+/* 1. CONFIGURACIÓN GENERAL DE LA PÁGINA*/
+
+/* El selector universal (*) aplica estos estilos
+   a todos los elementos de la página */
+* {
+    /* Elimina los márgenes predeterminados */
+    margin: 0;
+
+    /* Elimina los espacios interiores predeterminados */
+    padding: 0;
+
+    /* Incluye el padding y el borde en el tamaño total */
+    box-sizing: border-box;
+}
+
+/* 2. VARIABLES DE COLORES */
+
+/* :root permite definir colores reutilizables
+   en diferentes partes de nuestra página */
+:root {
+    /* Color principal del fondo */
+    --color-fondo: #0b0b12;
+
+    /* Color para tarjetas y otras superficies */
+    --color-secundario: #151522;
+
+    /* Color morado para destacar elementos */
+    --color-principal: #a855f7;
+
+    /* Color principal del texto */
+    --color-texto: #ffffff;
+
+    /* Color para textos secundarios */
+    --color-texto-secundario: #b8b8c7;
+}
+
+/* 3. ESTILOS GENERALES DEL DOCUMENTO*/
+
+/* Aplica los estilos generales al cuerpo de la página */
+body {
+    /* Establece el color oscuro del fondo */
+    background-color: var(--color-fondo);
+
+    /* Establece el color blanco del texto */
+    color: var(--color-texto);
+
+    /* Define el tipo de letra de toda la página */
+    font-family: Arial, sans-serif;
+}
