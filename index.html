@@ -21,7 +21,73 @@
 
 <body>
 
-    <!-- Aquí construiremos nuestra página -->
+    <!-- =====================================
+         BARRA DE NAVEGACIÓN PRINCIPAL
+         ===================================== -->
+
+    <!-- Navbar crea la barra de navegación.
+         navbar-expand-lg permite mostrar el menú
+         desplegado en pantallas grandes y plegado
+         en dispositivos pequeños. -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <!-- container centra el contenido y limita su anchura -->
+        <div class="container">
+
+            <!-- Nombre o logotipo del portfolio -->
+            <a class="navbar-brand fw-bold" href="#">
+                Mi Portfolio
+            </a>
+
+            <!-- Botón que permite abrir y cerrar el menú
+                 en móviles y tabletas -->
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menuPrincipal"
+                    aria-controls="menuPrincipal"
+                    aria-expanded="false"
+                    aria-label="Abrir menú de navegación">
+
+                <!-- Icono de las tres líneas del menú -->
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <!-- Contenedor de los enlaces de navegación -->
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+
+                <!-- ms-auto coloca los enlaces a la derecha -->
+                <ul class="navbar-nav ms-auto">
+
+                    <!-- Enlace a la portada -->
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#inicio">Inicio</a>
+                    </li>
+
+                    <!-- Enlace a la sección sobre mí -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+                    </li>
+
+                    <!-- Enlace a la sección de proyectos -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                    </li>
+
+                    <!-- Enlace a la sección de habilidades -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#habilidades">Habilidades</a>
+                    </li>
+
+                    <!-- Enlace a la sección de contacto -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
 
 </body>
 </html>
