@@ -48,3 +48,51 @@ body {
     /* Define el tipo de letra de toda la página */
     font-family: Arial, sans-serif;
 }
+
+
+/* ==========================================
+   4. COLOR MORADO PERSONALIZADO
+   ========================================== */
+
+/* Define el color morado para destacar textos */
+.text-purple {
+    color: var(--color-principal);
+}
+
+/* ==========================================
+   5. PERSONALIZACIÓN DE LOS BOTONES
+   ========================================== */
+
+/* Modifica el aspecto de los botones principales */
+.btn-primary {
+    /* Cambia el fondo al color morado */
+    background-color: var(--color-principal);
+
+    /* Elimina el borde predeterminado */
+    border-color: var(--color-principal);
+
+    /* Redondea ligeramente las esquinas */
+    border-radius: 8px;
+
+    /* Añade espacio interior al botón */
+    padding: 12px 25px;
+
+    /* Hace que el texto del botón aparezca en negrita */
+    font-weight: bold;
+
+    /* Añade una transición suave al cambiar de aspecto */
+    transition: all 0.3s ease;
+}
+
+/* Cambia el aspecto del botón cuando pasamos el ratón */
+.btn-primary:hover {
+    /* Oscurece ligeramente el fondo */
+    background-color: #9333ea;
+
+    /* Cambia también el color del borde */
+    border-color: #9333ea;
+
+    /* Eleva ligeramente el botón */
+    transform: translateY(-3px);
+}
+
